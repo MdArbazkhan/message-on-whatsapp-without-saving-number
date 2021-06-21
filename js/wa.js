@@ -1,17 +1,19 @@
-var inputFieldElement = document.getElementById("input-field");
-var btnElement = document.getElementById("btn");
+// reading form field
+const inputFieldElement = document.getElementById("input-field");
+const btnElement = document.getElementById("btn");
 
-var waLink = "https://api.whatsapp.com/send?phone=";
-var waLink2 = "&text";
+const waLink = "https://api.whatsapp.com/send?phone=";
+const waLink2 = "&text";
 
-var currentInputValue = '';
-inputFieldElement.addEventListener('input' , function(e){
-    var currentInputValue = e.target.value;
-});
 
-btnElement.addEventListener('click' , function(){
-    var whatsappLink = 'waLink' + 'currentInputValue' + 'waLink2';
-    window.location.replace = "";
-    inputFieldValue.value = '';
-    currentInputValue.value = '';
-})
+
+
+const onBtnClick = () => {
+   
+    const formInputField = inputFieldElement.value;
+    const link = waLink + formInputField + waLink2;
+    window.location.replace(link);
+
+}
+
+btnElement.addEventListener('click' , onBtnClick);
