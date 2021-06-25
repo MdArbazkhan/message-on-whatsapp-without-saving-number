@@ -19,9 +19,10 @@ body{
     margin: 0px auto;
 }
 #open-desc h1{
-    font-size: 20px;
+    font-size: 28px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    color: #34b922;
 }
 #open-desc p{
     font-size: 15px;
@@ -39,7 +40,7 @@ body{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    box-shadow: -15px 20px 20px rgb(247, 243, 243);
+    box-shadow: -15px 20px 10px rgba(206, 206, 206, 0.158);
 }
 #input-field{
     height: 60px;
@@ -55,7 +56,7 @@ body{
     text-align: center;
 }
 #input-field:focus{
-    box-shadow: 0px 0px 10px rgb(0, 162, 255);
+    box-shadow: 0px 0px 10px rgb(18, 154, 233);
     transition: box-shadow 0.2s ease-out;
 }
 #btn{
@@ -68,7 +69,8 @@ body{
     cursor: pointer;
 }
 #btn:hover{
-    background-color: #14e969;
+    background-color: #1b9e50;
+    transition: background-color 0.3s ease-out;
 }
 
 #install-desc{
@@ -82,10 +84,6 @@ body{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-}
-#install-desc a{
-    text-decoration: none;
-    color: #2dd36f;
 }
 
 #last-para{
@@ -108,7 +106,7 @@ body{
     color: #2dd36f;
 }
 .links:hover{
-    color: #0f9b47;
+    color: #1b9e50;
     text-decoration: underline;
 }
 
