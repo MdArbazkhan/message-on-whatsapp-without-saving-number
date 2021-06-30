@@ -1,6 +1,7 @@
 //reading form field
 const inputFieldElement = document.getElementById("input-field");
 const btnElement = document.getElementById("btn");
+const codeElement = document.getElementById("code");
 
 //creating link
 const waLink = "https://api.whatsapp.com/send?phone=";
@@ -10,12 +11,14 @@ const waLink2 = "&text";
 
 //functionality
 const onBtnClick = () => {
-   
+    
+    const codeInputField = codeElement.value;
     const formInputField = inputFieldElement.value;
-    const link = waLink + formInputField + waLink2;
+    const link = waLink + codeInputField + formInputField + waLink2;
     window.location.replace(link);
     inputFieldElement.value = '';
     formInputField.value = '';
+    codeInputField.value = '';
 
 }
 
