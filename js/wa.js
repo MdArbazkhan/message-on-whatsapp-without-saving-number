@@ -15,7 +15,7 @@ const onBtnClick = () => {
     const codeInputField = codeElement.value;
     const formInputField = inputFieldElement.value;
     const link = waLink + codeInputField + formInputField + waLink2;
-    window.location.replace(link);
+    window.open(link);
     inputFieldElement.value = '';
     formInputField.value = '';
     codeInputField.value = '';
