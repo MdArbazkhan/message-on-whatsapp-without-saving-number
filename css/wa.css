@@ -44,6 +44,7 @@ body{
 }
 #code{
     height: 50px;
+    background-color: white;
     margin-bottom: 10px;
     color: #8c8c8c;
     border-radius: 4px;
@@ -114,5 +115,31 @@ body{
 .links:hover{
     color: #1b9e50;
     text-decoration: underline;
+}
+
+@media screen and (min-width : 320px) and (max-width : 768px) {
+    
+    #main{
+        width: 100%;
+    }
+    #main-elements-wrapper{
+        width: 100%;
+    }
+    #open-desc{
+        width: 80%;
+    }
+    
+    #input-area-wrapper{
+        width: 80%;
+    }
+    
+    #install-desc{
+        width: 80%;
+    }
+    
+    #last-para{
+        width: 80%;
+    }
+     
 }
 
