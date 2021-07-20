@@ -2,10 +2,10 @@ body{
     margin: 0;
 }
 #main{
-    width: 400px;
+    width: 30%;
 }
 #main-elements-wrapper{
-    width: 400px;
+    width: 30%;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@ body{
     transform: translateX(-50%) translateY(-50%);
 }
 #open-desc{
-    width: 300px;
+    width: 90%;
     margin: 0px auto;
 }
 #open-desc h1{
@@ -34,7 +34,7 @@ body{
 }
 
 #input-area-wrapper{
-    width: 300px;
+    width: 90%;
     margin: 10px auto;
     padding: 20px;
     border-radius: 10px;
@@ -81,7 +81,7 @@ body{
 }
 
 #install-desc{
-    width: 300px;
+    width: 90%;
     margin: 10px auto 0px auto;
 }
 #install-desc p{
@@ -94,7 +94,7 @@ body{
 }
 
 #last-para{
-    width: 300px;
+    width: 90%;
     margin: 100px auto 20px auto;
 }
 #first{
